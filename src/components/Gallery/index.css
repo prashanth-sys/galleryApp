@@ -1,0 +1,23 @@
+/* Write your code here. */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+}
+.image {
+  height: 499px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 19px;
+  color: #1e293b;
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
