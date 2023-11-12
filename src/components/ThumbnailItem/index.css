@@ -1,8 +1,10 @@
 /* Write your code here. */
 .list-items {
   list-style-type: none;
-  opacity: 0.5;
 }
 .list-container {
   display: flex;
+}
+.button {
+  opacity: 0.5;
 }

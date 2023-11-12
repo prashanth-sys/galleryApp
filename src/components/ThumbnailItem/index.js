@@ -4,16 +4,16 @@ import './index.css'
 
 const ThumbnailItem = props => {
   const {imageDetailsList, updateCtiveImage} = props
-  const {thumbnailUrl, id} = imageDetailsList
+  const {thumbnailUrl, id, thumbnailAltText} = imageDetailsList
   const changeImage = () => {
     updateCtiveImage(id)
   }
 
   return (
     <li className="list-items">
-      <div className="list-container">
-        <img src={thumbnailUrl} alt="shiva paravathi" onClick={changeImage} />
-      </div>
+      <button className="button" type="button" onClick={changeImage}>
+        <img src={thumbnailUrl} alt={thumbnailAltText} />
+      </button>
     </li>
   )
 }
